@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+/*アーティクル*/
+article {
+    background-color: rgb(155, 155, 155);
+    display: flex;
+}
+
+/*サイドバー*/
+#said_bar {
+    background-color: rgb(241, 241, 241);
+    width: 200px;
+    box-shadow: 0 0 8px rgb(63, 63, 63);
+}
+/*サイドバーロゴ*/
+#header_1 h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 160px auto 0;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+/*サイドバーナビゲーション*/
+#header_nav {
+    text-align: center;
+}
+#header_nav #ul_1 {
+    list-style: none;
+    padding-left: 0;
+}
+#header_nav #ul_1 li {
+    font-size: 20px;
+    margin: 50px  0 50px 0;
+    font-weight: 600;
+}
+#header_nav #ul_1 li:first-child {
+    margin-top: 200px;
+}
+#ul_2 {
+    list-style: none;
+    padding-left: 0;
+}
+#ul_2 li {
+    font-size: 15px;
+    margin: 30px 0;
+}
+#ul_2 li:first-child {
+    margin-top: 100px;
+}
+
+/*メインコンテンツ*/
+#main_contents {
+    width: 1331px;
+    margin: 0 auto;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 0 8px rgb(63, 63, 63);
+}
+
+/*メインプロフィール*/
+#main_profile {
+    display: flex;
+}
+#main_img {
+    margin: 100px;
+}
+#main_text {
+    margin-top: 130px
+}
+/*メインコンテンツロゴ*/
+#main_profile #main_img img {
+    border-radius: 50%;
+}
+/*メインコンテンツフォト*/
+.main_img {
+    width: 100%;
+}
+/*サブコンテンツ*/
+#figu {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+    width: 1330px;
+}
+figure {
+    box-shadow: 0 0 8px rgb(63, 63, 63);
+    width: 300px;
+}
+figcaption {
+    padding: 20px;
+}
+#sub_contents h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
