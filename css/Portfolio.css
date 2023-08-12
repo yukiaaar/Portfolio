@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    width: 100vw;
 }
 
 /*アーティクル*/
@@ -11,7 +16,7 @@ article {
 /*サイドバー*/
 #said_bar {
     background-color: rgb(241, 241, 241);
-    width: 200px;
+    width: 12%;
     box-shadow: 0 0 8px rgb(63, 63, 63);
 }
 /*サイドバーロゴ*/
@@ -29,14 +34,12 @@ article {
 #header_nav #ul_1 {
     list-style: none;
     padding-left: 0;
+    margin-top: 450px;
 }
 #header_nav #ul_1 li {
     font-size: 20px;
-    margin: 50px  0 50px 0;
+    margin: 50px 0 50px 0;
     font-weight: 600;
-}
-#header_nav #ul_1 li:first-child {
-    margin-top: 200px;
 }
 #ul_2 {
     list-style: none;
@@ -52,7 +55,7 @@ article {
 
 /*メインコンテンツ*/
 #main_contents {
-    width: 1331px;
+    width: 80%;
     margin: 0 auto;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 0 8px rgb(63, 63, 63);
@@ -80,8 +83,9 @@ article {
 #figu {
     display: flex;
     justify-content: center;
-    margin: 100px 0 0 0;
-    width: 1330px;
+    margin: 100px auto 0;
+    width: 100%;
+    gap: 0 3%;
 }
 figure {
     box-shadow: 0 0 8px rgb(63, 63, 63);
